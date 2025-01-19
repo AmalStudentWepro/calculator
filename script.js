@@ -1,17 +1,17 @@
-let a = +prompt('1 число')
-let m = prompt('+ - * /')
-let b = +prompt('2 число')
+let a = +prompt('Чило1')
+let oper = prompt('+ - * /')
+let b = +prompt('Число2')
 
-if(m === "+"){
+if(oper === "+"){
   alert(a + b)
 } 
-else if(m === "-"){
+else if(oper === "-"){
   alert(a - b)
 } 
-else if(m === "*"){
+else if(oper === "*"){
   alert(a * b)
 } 
-else if(m === "/"){
+else if(oper === "/"){
   alert(a / b)
 } 
 else{
